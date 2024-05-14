@@ -6,6 +6,10 @@
     <title>quiz</title>
     
     <style>
+       *
+        {
+            background-color: lightgray;
+        }
         .parent
         {
             height: 350px;
@@ -13,12 +17,25 @@
             margin: auto;
             border: 2px solid black;
         }
-         @media(max-width:700px)
+
+        @media(max-width:700px)
         {
             .parent
             {
                 width: 100%;
             }
+        }
+        label
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #next
+        {
+            border: 2px  solid black;
+            height: 20px;
+            width: 100px;
+            background-color: navy;
+            color: white;
         }
     </style>
 </head>
