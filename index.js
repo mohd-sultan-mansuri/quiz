@@ -120,7 +120,8 @@ option4.innerHTML=data[num].d;
 else
 {
     myscroe.innerHTML=`you scored ${scroe}/${data.length}<br/>
-    <button onclick="location.reload()">Play Again </button>`;
+    <button id='next' onclick="location.reload()">Play Again </button>`;
     nextbtn.style.display="none";
+    
 }
 }
